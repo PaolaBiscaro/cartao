@@ -1,6 +1,14 @@
 body {
     background-color: #1b1b1b;
     color: #fff;
+    margin: 0px;
+
+
+}
+
+#corpo {
+    width: 100vw;
+    height: 100vh;
 }
 
 a {
@@ -10,6 +18,10 @@ a {
 
 i {
     font-size: 25px;
-    color:  #fa3a89 ;
+    color: #fa3a89;
+}
 
+.img-perfil {
+    border: solid #fa3a89 2px;
+    border-radius: 50%;
 }

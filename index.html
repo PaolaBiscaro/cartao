@@ -11,49 +11,41 @@
         integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Paola Biscaro</title>
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="/css/main.css">
 </head>
 
 <body>
-    <header>
-        <div>
-            <h1>Cartão de Visita</h1>
-        </div>
-    </header>
-    <main id="corpo">
-        <div>
-            <div>
-                <img>
-                <h2>Paola Biscaro</h2>
-                <p>
-                    Desenvolvedora Full-Stack <br>
-                    <small>Front-End | Back-End | Mobile</small>
-                </p>
-            </div>
-        </div>
 
+    <main id="corpo" class="d-flex align-items-center flex-column ">
+
+        <img class="img-perfil" src="/img/user.png" alt="Foto de Perfil" height="100px">
+        <h2>Paola Biscaro</h2>
+        <p>
+            Desenvolvedora Full-Stack <br>
+            <small class="fw-lighter">Front-End | Back-End | Mobile</small>
+        </p>
 
         <div class="row">
-            <div class="col-md-4">
-                <i class="icone fa-brands fa-linkedin"></i>
+            <div class="col-4">
+                <a href="https://www.linkedin.com/in/paola-biscaro-b89099186/">
+                    <i class=" fa-brands fa-linkedin"></i>
+                </a>
             </div>
 
-
-
-
-            <div class="col-md-4">
-                <i class="fa-solid fa-envelope"></i>
-
+            <div class="col-4 ">
+                <a href="mailto:paolabiscaroper@gmail.com">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
             </div>
 
-
-
-            <div class="col-md-4">
-                <i class="fa-brands fa-github"></i>
+            <div class="col-4">
+                <a href="https://github.com/PaolaBiscaro">
+                    <i class="fa-brands fa-github"></i>
+                </a>
             </div>
         </div>
 
-
+    </main>
 </body>
 
 </html>
