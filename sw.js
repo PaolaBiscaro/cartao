@@ -1,4 +1,4 @@
-const cacheName = 'cartao-pwa';
+const cacheName = 'ola-pwa';
 var filesToCache = [
   './',
   './manifest.webmanifest',

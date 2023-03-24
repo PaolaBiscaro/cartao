@@ -1,33 +1,31 @@
 {
-    "name": "Cartão Paola",
-    "short_name": "Cartão",
-    "start_url": ".",
-    "display": "standalone",
-    "background_color": "#1b1b1b ",
-    "background-color": "1b1b1b",
-    "description": "Meu cartão em PWA!",
-    "icons": [
-        {
-            "src": "images/logo128.png",
-            "sizes": "128x128",
-            "type": "image/png"
-        },
-        {
-            "src": "images/logo192.png",
-            "sizes": "192x192",
-            "type": "image/png",
-            "purpose": "any maskable"
-        },
-        {
-            "src": "images/logo256.png",
-            "sizes": "256x256",
-            "type": "image/png"
-        },
-        {
-            "src": "images/logo512.png",
-            "sizes": "512x512",
-            "type": "image/png"
-        }
-    ],
-    "lang": "pt-BR"
+  "name": "Paola Biscaro",
+  "short_name": "Cartao",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#ffffff",
+  "background_color": "#000000",
+  "background-color": "#000000",
+  "description": "Meu cartao em PWA!",
+  "icons": [
+    {
+      "src": "images/logo128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    }, {
+      "src": "images/logo192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }, {
+      "src": "images/logo256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    }, {
+      "src": "images/logo512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }],
+  "lang": "pt-BR" 
+  
 }
